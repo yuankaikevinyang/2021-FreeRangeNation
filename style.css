@@ -1,0 +1,245 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: lemonchiffon;
+}
+
+h1{
+  text-align: center;
+}
+
+.nav-link{
+  opacity:0.7;
+  font-weight: bold;
+}
+
+.nav-link:hover{
+  opacity:1;
+  background-color: #aedbad;
+}
+
+
+.homeheader{
+/*   Size of Element */
+  height: 50vw;
+  width: 100%;
+/*   Background Image */
+  background-image: url(https://cdn.insteading.com/wp-content/uploads/2014/05/free-range-chickens-grass.jpg);
+  background-size: cover;
+/*   Text Properties */
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+}
+
+header p{
+  font-style: italic;
+}
+
+.footer{
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.footer i{
+  padding: 1em;
+}
+
+.docu {
+  text-align: center;
+  font-size: 3em;
+}
+
+.chicken {
+  font-size: 1.5em;
+  margin-right: 5vw;
+  margin-left: 5vw;
+}
+
+iframe.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.team{
+  margin-top:80px;
+  margin-bottom:80px;
+}
+
+
+.statimg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team img{
+  width:250px;
+  height:250px;
+  object-fit:cover;
+  border-radius:50%;
+  margin-bottom: 50px;
+  display:flex;
+  justify-content:space-around;
+}
+.partners img{
+  width:250px;
+  height:250px;
+  object-fit:cover;
+  border-radius:50%;
+  margin-bottom:50px;
+  display:flex;
+  justify-content:space-around;
+
+}
+
+.homepageprojectsflex{
+  display: flex;
+  justify-content: space-around;
+  margin-right: 5vw;
+  margin-left: 5vw;
+}
+
+.homepageprojectsflex img{
+  width:25vw;
+  height:25vw;
+}
+
+.images{
+ text-align: center;
+border: 20px black ;
+position: relative;
+margin: 15px;
+top: 290px 
+}
+
+  
+ .heart {
+ text-align: center;
+ }
+
+.projectsflex{
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.projectsflex img{
+  height: 20vw;
+  width: auto;
+}
+
+.services{
+  text-align: center;
+}
+
+.services i{
+  font-size: 30px;
+  padding: 15px 10px;
+  color: white;
+  background-color: darkgreen;
+  border-radius: 50%;
+}
+
+.services span{
+  width: 200px;
+  height: 40px;
+  display: inline-block;
+}
+
+.contact i{
+  padding-right: 1em;
+}
+
+.contactheader{
+  /*   Size of Element */
+  height: 30vw;
+  width: 100%;
+/*   Background Image */
+  background-image: url(https://live-production.wcms.abc-cdn.net.au/aee1c9dd2a5e83e8c01cb8f0fa95ee99?impolicy=wcms_crop_resize&cropH=1680&cropW=2983&xPos=17&yPos=351&width=862&height=485);
+  background-size: cover;
+/*   Text Properties */
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+}
+
+.missionheader{
+  /*   Size of Element */
+  height: 30vw;
+  width: 100%;
+/*   Background Image */
+  background-image: url(images/pigsmission.jpg);
+  background-size: cover;
+/*   Text Properties */
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+}
+
+.teamheader{
+  /*   Size of Element */
+  height: 30vw;
+  width: 100%;
+/*   Background Image */
+  background-image: url(https://media.npr.org/assets/img/2017/06/02/l_main-1_custom-de6075df89f491ae441f85377c28c80a2c1c9816.jpg);
+  background-size: cover;
+/*   Text Properties */
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+}
+
+.servicesheader{
+  /*   Size of Element */
+  height: 30vw;
+  width: 100%;
+/*   Background Image */
+  background-image: url(https://3toh891af6rf1cn1po1ecevj-wpengine.netdna-ssl.com/wp-content/uploads/2017/04/web-farm-working-cow-x-2400.jpg);
+  background-size: cover;
+/*   Text Properties */
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+}
+
+.projectsheader{
+  /*   Size of Element */
+  height: 30vw;
+  width: 100%;
+/*   Background Image */
+  background-image: url(https://post.healthline.com/wp-content/uploads/2020/02/chicken-grass-field-1200x628-facebook.jpg);
+  background-size: cover;
+/*   Text Properties */
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+}
+
+.footerflex{
+  display: flex;
+  justify-content: left;
+}
+
+.contactflex{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contactflex p{
+  font-size: 3vw;
+  font-weight: bold;
+}
+
+.contactflex img{
+  width: 5vw;
+  height: 5vw;
+  justify-content: center;
+  margin-right: 1vw;
+}
+
+li {
+  list-style: none;
+}

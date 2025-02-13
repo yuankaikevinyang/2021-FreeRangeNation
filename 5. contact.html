@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Contact Us | Free Range Nation</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <!--   Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!--   Friconix -->
+  <script defer src="https://friconix.com/cdn/friconix.js"> </script>
+  <link rel="icon" href="images/green heart.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=BenchNine:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body style="background-color: lemonchiffon;">
+  <!--   Navbar & Button Code -->
+  <div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html"
+        style="font-size: 2em; font-family: 'BenchNine', sans-serif; font-weight: bold;"><img
+          src="images/green heart.png" alt="Green Heart Icon" style="height: 1em; width: 1em;">&nbsp;&nbsp;
+        FREE RANGE NATION</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+              About
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="1. mission.html">Mission & Vision</a>
+              <a class="dropdown-item" href="2. team.html">Meet the Team</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="3. services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="4. projects.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Github Button Code -->
+    <div>
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    </div>
+  </div>
+
+  <header class=" contactheader d-flex align-items-center">
+    <div class="container">
+      <h1 style="font-size: 5vw;"><strong>Contact Us</strong></h1>
+    </div>
+  </header>
+  <br>
+  <br>
+
+  <!--   Contact Us -->
+  <section class="contact" style="margin-right: 2vw; margin-left: 2vw;">
+    <h1>Message Submission Form</h1>
+    <p style="text-align: center; padding-right: 4vw; padding-left: 4vw;">Send us a message about any questions or comments you would like us to read. Message us about educational or voulnteer opportunities or just give us some feedback one how wer're doing!</p>
+    <br>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-default"><i
+                class="fi-xnsuxl-user-solid"></i>Name</span>
+          </div>
+          <input type="text" class="form-control" aria-label="Sizing example input"
+            aria-describedby="inputGroup-sizing-default">
+        </div>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-default"><i
+                class="fi-xnsuxl-close-envelope-solid"></i>Email</span>
+          </div>
+          <input type="text" class="form-control" aria-label="Sizing example input"
+            aria-describedby="inputGroup-sizing-default">
+        </div>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-default"><i
+                class="fi-xnsrxl-phone-solid"></i>Phone</span>
+          </div>
+          <input type="text" class="form-control" aria-label="Sizing example input"
+            aria-describedby="inputGroup-sizing-default">
+        </div>
+      </div>
+      <div class="col-md-6 col-md-6">
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Your Message:</label> <br>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea><br>
+          <button class="btn btn-lg">Submit Your Message</button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+<br><br>
+  <h1>Follow our socials!</h1>
+  <br>
+<div class="contactflex">
+  <div>
+    <p> <img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Facebook_logo_%28square%29.png" alt="Facebook App Logo"><a href="https://facebook.com" target="_blank" style="text-decoration: none; color: black;">@freerangenation</a></p>
+  </div>
+  <div>
+   
+    <p> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png" alt="Instagram app logo"><a href="https://instagram.com" target="_blank" style="text-decoration: none; color: black;">@freerangepics</a></p>
+  </div>
+ 
+</div>
+
+<div class="contactflex">
+   <div>
+    <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/2491px-Twitter-logo.svg.png" alt="Twitter app logo"><a href="https://twitter.com" target="_blank" style="text-decoration: none; color: black;">@freerangetweets</a></p>
+  </div>
+</div>
+  
+  <!-- Footer -->
+ <section class="footer container">
+<hr><br>
+    <div class="row">
+      <div class="col-md-4">
+        <h2> Contact Us </h2>
+        <ui>
+          <li><i class="fi-xnsuxl-thumbtack-solid"></i></i>
+            <p style="display: inline;">Address <br> Free Range Nation
+              <br>PO Box 1459 <br> Bellflower, CA, 1352
+            </p>
+          </li>
+          <br>
+          <li><i class="fi-xnluxl-envelope-solid"></i>
+            <p style="display: inline;">Email <br>freerange@gmail.com</p>
+          </li>
+          <br>
+          <li><i class="fi-xnsrxl-phone-solid"></i>
+            <p style="display: inline;">Phone Number <br>(310) 234-2546</p>
+          </li>
+          <br>
+        </ui>
+      </div>
+      <div class="col-md-6">
+        <h3>Social Media</h3>
+        <p>
+          <a href="https://facebook.com" target="_blank"><i class="fi-snsuxl-facebook" style="color: black;"></i></a>
+          <a href="https://instagram.com" target="_blank"><i class="fi-xnsuxl-instagram" style="color: black;"></i></a>
+          <a href="https://twitter.com" target="_blank"><i class="fi-xnsuxl-twitter-solid"
+              style="color: black;"></i></a>
+
+        </p>
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="Email Address" aria-label="Email Address"
+            aria-describedby="basic-addon2">
+          <div class="input-group-append">
+            <button class="btn btn-success" type="button">Subscribe to our newsletter</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <p style="text-align: center; padding-bottom: 10px">© 2022 Free Range Nation</p>
+  </footer>
+</body>
+
+</html>
